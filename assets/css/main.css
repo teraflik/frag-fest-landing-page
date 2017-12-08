@@ -2937,10 +2937,9 @@
 		}
 
 		#banner .inner {
-			border-top: 2px solid rgba(255, 255, 255, 0.2);
 			position: relative;
 			z-index: 10005;
-			padding-top: 8em;
+			padding-top: 1em;
 		}
 
 		#banner h1 {
@@ -2964,6 +2963,13 @@
 			font-size: 2em;
 		}
 
+		#frag-fest-logo {
+			margin-left: auto;
+			margin-right: auto;
+			height: 20em;
+			width: auto;
+		}
+
 		#banner p {
 			font-size: 1em;
 			color: rgba(255, 255, 255, 0.55);
@@ -2977,7 +2983,7 @@
 			-ms-justify-content: center;
 			justify-content: center;
 			text-align: center;
-			margin: 0 auto 4em auto;
+			margin: 0 auto 2em auto;
 		}
 
 			#banner .flex div {
@@ -3009,7 +3015,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner .flex div {
-				padding: 0 6em;
+				padding: 0 8em;
 			}
 
 		}
@@ -3017,11 +3023,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 6em 0;
+				padding: 3em 0 6em 0;
 			}
 
 				#banner .inner {
-					padding-top: 6em;
+					padding-top: 2em;
 				}
 
 				#banner h1 {
