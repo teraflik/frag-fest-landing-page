@@ -2714,7 +2714,7 @@
 		text-align: right;
 		top: 2em;
 		width: 100%;
-		z-index: 10001;
+		z-index: 10;
 	}
 
 		#header .inner {
@@ -2938,7 +2938,7 @@
 
 		#banner .inner {
 			position: relative;
-			z-index: 10005;
+			z-index: 0;
 			padding-top: 1em;
 		}
 
